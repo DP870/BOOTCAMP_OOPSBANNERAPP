@@ -1,35 +1,28 @@
 /** 
-* OOPSBANNERAPP UC4 - OOPS BANNER Display Application
+* OOPSBANNERAPP UC5 - OOPS BANNER Display Application
 *
-* This class demonstrates a simple Java application that displays the OOPS logo using
-* "*",String.join() and array.
+* This class demonstrates a simple Java application that displays the OOPS logo stored in an
+* array and uses a for loop for printing the pattern.
 *
 *
 <<<<<<< HEAD
 * @author Developer
-* @version 4
+* @version 5.0
 */
 
 public class OOPSBannerApp{
 	public static void main (String[] args){
-		String[] line=new String[7];
-		line[0]= String.join("","   ***     ","   ***     ","  ****** ","  *****");
+		String[] lines={"   ***        ***      ******   *****",
+						" **   **    **   **    **  **   *   ",
+						"**      ** **     **   **  **   *",
+						"**      ** **     **   ******   *****",
+						"**      ** **     **   **           * ",
+						" **   **   **     **   **           *",
+						"   ***        ***      **       *****"
+						};
+			
 		
-		line[1]=String.join(""," **   **   "," **    **  ","  **  ** ","  *   ");
-		
-		line[2]=String.join("","**      ** ","**      ** "," **  ** ","  *");
-		
-		line[3]=String.join("","**      ** ","**      ** ","  ****** ","  *****");
-		
-		line[4]=String.join("","**      ** ","**      ** ","  **     ","      * ");
-		
-		line[5]=String.join(""," **   **   ","**    **   ","  **     ","      *");
-		
-		line[6]=String.join("","   ***     ","   ***     ","  **     ","  *****");
-		
-		
-		
-		for (String pattern:line){
+		for (String pattern:lines){
 				System.out.println(pattern);
 		}
 
