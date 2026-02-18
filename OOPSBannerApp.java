@@ -1,14 +1,22 @@
-/*
-* OOPSBannerApp UC1-OOPS Banner Display Application
-* This Class demonstrates a simple Java program that uses the 
-* datatype of string and prints it
+/** 
+* OOPSBANNERAPP UC2 - OOPS BANNER Display Application
 *
-* 
-* @author Developer
-* @version 1.0
+* This class demonstrates a simple Java application that displays the Object
+* Oriented Programming System OOPS acronym to the console with "*".
+*
+*@author Developer
+*@version 2
 */
-class OOPSBannerApp{
-    public static void main(String[] args){
-        System.out.print("OOPS");
-    }
+
+public class OOPSBannerApp{
+	public static void main (String[] args){
+	
+		System.out.println("   ***        ***      ******  *****"    );
+		System.out.println(" **   **    **    **   **  **  *   "  );
+		System.out.println("**      **  **      ** **  **  *"     );
+		System.out.println("**      **  **      ** ******  *****"   );
+		System.out.println("**      **  **      ** **          *      "       );
+		System.out.println(" **   **    **    **   **          *"      );
+		System.out.println("   ***         ***     **      *****"     );
+	}
 }
