@@ -1,38 +1,32 @@
-<<<<<<< HEAD
-/*
-* OOPSBannerApp UC1-OOPS Banner Display Application
-* This Class demonstrates a simple Java program that uses the 
-* datatype of string and prints it
-*
-* 
-* @author Developer
-* @version 1.0
-*/
-class OOPSBannerApp{
-    public static void main(String[] args){
-        System.out.print("OOPS");
-    }
-}
-=======
 /** 
-* OOPSBANNERAPP UC1 - OOPS BANNER Display Application
+* OOPSBANNERAPP UC3 - OOPS BANNER Display Application
 *
-* This class demonstrates a simple Java application that displays the Object
-* Oriented Programming System OOPS acronym to the console with the help of "*".
+* This class demonstrates a simple Java application that displays the OOPS logo using
+* "*" and String.join().
 *
-*@author Developer
-*@version 2.0
+*
+<<<<<<< HEAD
+* @author Developer
+* @version 3
 */
-public class OOPSBannerApp{
+
+public class OOPSBannerAppVThree{
 	public static void main (String[] args){
 	
-		System.out.println("   ***        ***      ******  *****"    );
-		System.out.println(" **   **    **    **   **  **  *   "  );
-		System.out.println("**      **  **      ** **  **  *"     );
-		System.out.println("**      **  **      ** ******  *****"   );
-		System.out.println("**      **  **      ** **          *      "       );
-		System.out.println(" **   **    **    **   **          *"      );
-		System.out.println("   ***         ***     **      *****"     );
+		System.out.println(String.join("","   ***     ","   ***     ","  ****** ","  *****"));
+		System.out.println(String.join(""," **   **   "," **    **  ","  **  ** ","  *   "));
+		System.out.println(String.join("","**      ** ","**      ** "," **  ** ","  *"));
+		System.out.println(String.join("","**      ** ","**      ** ","  ****** ","  *****"));
+		System.out.println(String.join("","**      ** ","**      ** ","  **     ","      * "));
+		System.out.println(String.join(""," **   **   ","**    **   ","  **     ","      *"));
+		System.out.println(String.join("","   ***     ","   ***     ","  **     ","  *****"));
+		
+		
+		
+		
 	}
 }
->>>>>>> feature/UC2-PrintOOPS
+
+
+
+
