@@ -1,4 +1,4 @@
-## UC0:
+# UC0:
 Setup Git on devices
 
 # UC1:
